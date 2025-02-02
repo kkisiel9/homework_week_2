@@ -11,6 +11,7 @@ pattern = os.path.join(hdir,'*')
 
 # TODO: Use the glob.glob() function to obtain the list of filenames
 search_dir = "/Users/samiatkolawole/PycharmProjects/**/*.py"  # Use ** for recursive search
+
 # Get list of matching files
 for file in glob.glob(search_dir, recursive=True):
 # TODO: use os.path.getsize to find each file's size
