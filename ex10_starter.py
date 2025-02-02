@@ -10,6 +10,7 @@ else:
 pattern = os.path.join(hdir,'*')
 
 # TODO: Use the glob.glob() function to obtain the list of filenames
+ #Use ** for recursive search, allows glob to search for files inside subdirectories as well, rather than only in the specified folder.
 search_dir = "/Users/samiatkolawole/PycharmProjects/**/*.py"  #Use ** for recursive search, allows glob to search for files inside subdirectories as well, rather than only in the specified folder.
 # Get list of matching files
 for file in glob.glob(search_dir, recursive=True):
